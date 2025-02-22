@@ -11,7 +11,7 @@ engine.setProperty('rate', 170)  # Speed of speech (default is 200)
 engine.setProperty('volume', 1)  # Volume (0.0 to 1.0)
 
 # Adjust microphone sensitivity
-recognizer.energy_threshold = 200  # Adjust if needed
+recognizer.energy_threshold = 150  # Adjust if needed
 recognizer.dynamic_energy_threshold = True  # Auto-adjusts for background noise
 recognizer.pause_threshold = 1.5  # Waits for a slightly longer pause
 
